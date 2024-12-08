@@ -8,6 +8,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Searching />} />
+        <Route path="/results/:userName" element={<Results />} />
       </Routes>
     </Router>
   );
