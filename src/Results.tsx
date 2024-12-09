@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getUserData, getMatchHistory } from "./api";
+import { getUserData, getMatchHistory } from "./Api";
 
 interface UserData {
   id: string;
